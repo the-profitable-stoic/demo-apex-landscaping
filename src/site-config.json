@@ -1,0 +1,608 @@
+{
+  "business": {
+    "name": "Apex Landscaping",
+    "phone": "555-lan-r92",
+    "category": "landscaping",
+    "city": "Portland",
+    "state": "OR"
+  },
+  "design": {
+    "preset": {
+      "id": "landscaping-red-charge",
+      "categoryGroup": "landscaping",
+      "name": "Red Charge",
+      "recipeFile": "landscaping/red-charge.astro",
+      "colors": {
+        "primary": "#16A34A",
+        "primaryDark": "#14532D",
+        "primaryLight": "#c5e8d2",
+        "secondary": "#149343",
+        "accent": "#65A30D",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#16A34A",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "landscaping/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Portland Landscapes Built for Rain",
+      "heroSubline": "Custom landscaping solutions designed for Portland's wet winters and dry summers. We understand how moss, mildew, and wood rot impact local homes.",
+      "aboutTitle": "Rooted in Portland",
+      "aboutText": [
+        "Founded in 2012, Apex Landscaping grew from a single truck serving Northeast Portland neighborhoods to a full-service team maintaining landscapes across Washington County. Our founder, a Portland native, saw how many landscapes struggled with the region's unique climate challenges.",
+        "We take a horticultural approach to landscaping, selecting plants that thrive in our wet winters without drowning in clay soils. Every design considers drainage first—because we know what happens when you don't.",
+        "From volunteering at Portland Parks projects to sponsoring Alberta Arts festivals, we invest in the communities where we work. You'll see our team members coaching Little League in Beaverton and shopping at Hillsboro Farmers Market."
+      ],
+      "valueProps": [
+        {
+          "title": "Rain-Ready Designs",
+          "description": "Our planting beds and hardscapes are engineered to handle Portland's 36+ inches of annual rainfall without washing out."
+        },
+        {
+          "title": "Local Plant Knowledge",
+          "description": "We specify native plants like Oregon grape and sword fern that naturally resist mildew in our humid climate."
+        },
+        {
+          "title": "Earthquake-Conscious",
+          "description": "Retaining walls and structures are built with seismic activity in mind—a must in the Pacific Northwest."
+        },
+        {
+          "title": "Moss Management",
+          "description": "Specialized treatments prevent slippery surfaces while preserving beneficial moss where it belongs."
+        }
+      ],
+      "ctaHeadline": "Ready for a Landscape That Works With Portland's Climate?",
+      "ctaSubline": "Schedule a free site assessment to discuss solutions for your specific neighborhood conditions."
+    },
+    "services": [
+      {
+        "slug": "rain-garden-installation",
+        "name": "Rain Garden Installation",
+        "shortDescription": "Stormwater solutions that beautify while preventing basement flooding.",
+        "description": "Portland's clay soils and heavy rains create perfect conditions for yard flooding. Our rain gardens are strategically placed to capture runoff from roofs and driveways, using layers of gravel and moisture-loving plants like redtwig dogwood to absorb water naturally.\n\nWe analyze your property's slope and soil composition to determine optimal placement—typically 10+ feet from foundations. Each design incorporates native plants that thrive in both seasonal saturation and summer dryness. For homes in flood-prone areas like St. Johns or near Balch Creek, we often include French drain systems as backup.",
+        "process": [
+          "Step 1: Site evaluation with percolation testing to measure soil drainage rates",
+          "Step 2: Custom design showing water flow patterns and plant selections",
+          "Step 3: Excavation with proper slope away from structures",
+          "Step 4: Installation with erosion-control mulch and starter fertilizer"
+        ],
+        "benefits": [
+          "Reduces basement flooding risks",
+          "Prevents erosion on sloped lots",
+          "Provides habitat for pollinators",
+          "Qualifies for Portland's Clean River Rewards discount"
+        ],
+        "faq": [
+          {
+            "question": "Will a rain garden attract mosquitoes?",
+            "answer": "Properly designed rain gardens drain within 24-48 hours—too fast for mosquitoes to breed. We include sand layers to accelerate drainage in problem areas."
+          },
+          {
+            "question": "How do you maintain them in summer?",
+            "answer": "We select drought-tolerant natives that establish deep roots. After the first year, most need only seasonal pruning and occasional mulch refresh."
+          }
+        ]
+      },
+      {
+        "slug": "craftsman-landscape-restoration",
+        "name": "Craftsman Landscape Restoration",
+        "shortDescription": "Period-appropriate designs for Portland's historic bungalows.",
+        "description": "Portland's iconic Craftsman homes deserve landscapes that match their architectural integrity. We specialize in restoring original features like clinker brick pathways and rhododendron hedges while addressing modern needs.\n\nOur team researches historical plant palettes—think Japanese maples and daphne shrubs that were popular when these homes were built. For foundations suffering from wood rot (common in Alberta Arts District bungalows), we install proper grading and breathable gravel borders. Every project includes documentation of original features we preserve, whether it's a vintage irrigation system or mature camellia specimen.",
+        "process": [
+          "Step 1: Archival research through Portland Historical Society records",
+          "Step 2: Materials sourcing from local suppliers like Portland Stone Works",
+          "Step 3: Sympathetic hardscape repairs using traditional techniques",
+          "Step 4: Native plant additions that complement original designs"
+        ],
+        "benefits": [
+          "Increases property value in historic districts",
+          "Addresses modern drainage issues sensitively",
+          "Preserves neighborhood character",
+          "Uses climate-adapted heritage plants"
+        ],
+        "faq": [
+          {
+            "question": "Can you match original brick colors?",
+            "answer": "We source reclaimed bricks from local salvage yards and use mineral stains to blend new materials seamlessly with existing work."
+          },
+          {
+            "question": "Do you work with historic preservation grants?",
+            "answer": "Yes—we've helped clients secure funding through Portland's Architectural Heritage Center and Mills End Park programs."
+          }
+        ]
+      },
+      {
+        "slug": "moss-control-treatment",
+        "name": "Moss Control Treatment",
+        "shortDescription": "Safe solutions for slippery surfaces without harming beneficial moss.",
+        "description": "Portland's moisture creates dangerous moss buildup on walkways, roofs, and decks—especially in shaded areas near Forest Park. Our targeted treatments remove slippery growth while preserving moss where it's desirable (like between pavers).\n\nWe use zinc-based solutions that inhibit regrowth for 12-18 months without damaging surrounding plants. For roof applications, we coordinate with roofing contractors to ensure compatibility with cedar shakes or composition shingles. Post-treatment, we recommend strategic pruning to increase sunlight exposure and install copper strip barriers where appropriate.",
+        "process": [
+          "Step 1: Surface assessment to identify moss species and underlying causes",
+          "Step 2: Manual removal of thick growth before treatment",
+          "Step 3: Application of pH-balanced moss control solution",
+          "Step 4: Preventative measures like tree thinning or gutter adjustments"
+        ],
+        "benefits": [
+          "Reduces slip-and-fall hazards",
+          "Extends lifespan of roofing materials",
+          "Preserves moss in controlled areas",
+          "Pet-safe application methods"
+        ],
+        "faq": [
+          {
+            "question": "How often will I need retreatments?",
+            "answer": "Most properties need annual touch-ups, but we've seen shaded homes near Council Crest require biannual applications."
+          },
+          {
+            "question": "Will this kill my lawn?",
+            "answer": "We use spot treatments that won't harm grass. In fact, reducing moss often improves turf health by decreasing acidity."
+          }
+        ]
+      },
+      {
+        "slug": "drought-tolerant-landscaping",
+        "name": "Drought-Tolerant Landscaping",
+        "shortDescription": "Summer-ready designs that conserve water without sacrificing beauty.",
+        "description": "Portland's increasingly dry summers demand landscapes that don't rely on constant irrigation. Our drought-tolerant designs use Mediterranean plants like lavender and rosemary alongside native succulents that store water in their leaves.\n\nWe install efficient drip irrigation systems with soil moisture sensors—particularly valuable for eastside neighborhoods with water restrictions. Every planting plan includes 3-4 inches of arborist chip mulch to retain moisture and suppress weeds naturally. For clients wanting lawn alternatives, we specialize in clover mixes and creeping thyme that stay green with minimal water.",
+        "process": [
+          "Step 1: Solar exposure analysis tracking shade patterns",
+          "Step 2: Soil amendment with water-retentive polymers where needed",
+          "Step 3: Strategic grouping of plants by water needs",
+          "Step 4: Smart irrigation programming based on local ET rates"
+        ],
+        "benefits": [
+          "Reduces summer water use by 50-70%",
+          "Minimizes maintenance during peak season",
+          "Provides year-round visual interest",
+          "Qualifies for Water Bureau rebates"
+        ],
+        "faq": [
+          {
+            "question": "Will these plants survive our wet winters?",
+            "answer": "We select varieties with excellent drainage needs—many Mediterranean plants actually prefer our winter conditions to desert climates."
+          },
+          {
+            "question": "Can I keep any existing thirsty plants?",
+            "answer": "We often create 'hydration zones' where water-loving specimens can thrive near downspouts or low spots."
+          }
+        ]
+      },
+      {
+        "slug": "earthquake-resistant-retaining-walls",
+        "name": "Earthquake-Resistant Retaining Walls",
+        "shortDescription": "Structural solutions for sloped lots in seismic zones.",
+        "description": "Portland's hilly terrain and seismic activity demand retaining walls that won't fail during tremors. Our reinforced designs use geogrid layers and weep holes to prevent hydrostatic pressure buildup—a common cause of wall failures after heavy rains.\n\nWe engineer walls to withstand lateral movement using techniques like stepped foundations and flexible mortars. For properties near fault lines (like those west of the Willamette), we often recommend segmented block systems that can shift without collapsing. Every project includes proper drainage behind the wall to prevent saturation during winter storms.",
+        "process": [
+          "Step 1: Site survey with laser level to measure slope grade",
+          "Step 2: Soil testing to determine bearing capacity",
+          "Step 3: Engineered design with seismic considerations",
+          "Step 4: Construction with drainage aggregate and filter fabric"
+        ],
+        "benefits": [
+          "Meets Oregon structural codes for seismic zones",
+          "Prevents landslide risks on steep lots",
+          "Integrates with natural topography",
+          "Includes 10-year warranty on materials"
+        ],
+        "faq": [
+          {
+            "question": "How tall can these walls be built?",
+            "answer": "Most residential walls stay under 4 feet for stability, but we can engineer taller solutions with proper permits and engineering oversight."
+          },
+          {
+            "question": "Do you repair existing failing walls?",
+            "answer": "Yes—we often retrofit older walls with tiebacks or soil nails when complete replacement isn't necessary."
+          }
+        ]
+      },
+      {
+        "slug": "native-plant-gardens",
+        "name": "Native Plant Gardens",
+        "shortDescription": "Low-maintenance ecosystems supporting local wildlife.",
+        "description": "Native gardens thrive in Portland's climate while providing crucial habitat for birds and pollinators. Our designs mimic natural plant communities—think sword fern understories beneath Oregon white oaks with vine maple accents.\n\nWe source plants from local nurseries like Bosky Dell to ensure genetic adaptation to our region. Each garden includes educational signage about the ecological relationships between species. For urban sites near the Pearl District, we incorporate noise-reducing plant buffers and air-purifying species like oceanspray.",
+        "process": [
+          "Step 1: Ecological assessment of existing site conditions",
+          "Step 2: Plant community design based on natural analogs",
+          "Step 3: Soil preparation with mycorrhizal inoculants",
+          "Step 4: Installation with protective deer fencing if needed"
+        ],
+        "benefits": [
+          "Requires 80% less water than traditional landscapes",
+          "Supports declining pollinator populations",
+          "No fertilizers or pesticides needed",
+          "Eligible for Backyard Habitat Certification"
+        ],
+        "faq": [
+          {
+            "question": "Will native gardens look too wild?",
+            "answer": "We create structured designs with intentional sightlines—many clients are surprised how tidy native gardens can appear when properly planned."
+          },
+          {
+            "question": "How quickly do these plants establish?",
+            "answer": "Most natives grow slower than cultivars but are healthier long-term. We often include quick-start species like red-flowering currant for early impact."
+          }
+        ]
+      },
+      {
+        "slug": "ice-storm-preparation",
+        "name": "Ice Storm Preparation",
+        "shortDescription": "Protecting trees and structures before winter freezes.",
+        "description": "Portland's occasional ice storms can devastate landscapes unprepared for heavy loads. Our preventive services reduce risks by selectively thinning weak branches and cabling multi-stemmed trees.\n\nWe assess trees for structural weaknesses using resistograph testing—particularly important for properties with mature bigleaf maples. Vulnerable plants like bamboo get bundled to prevent splaying, while irrigation systems are winterized to prevent freeze damage. Post-storm, we offer emergency tree stabilization services throughout Washington County.",
+        "process": [
+          "Step 1: Structural assessment of all woody plants",
+          "Step 2: Crown reduction for overextended limbs",
+          "Step 3: Installation of support systems where needed",
+          "Step 4: Documentation of pre-storm conditions for insurance"
+        ],
+        "benefits": [
+          "Reduces property damage risks",
+          "Preserves mature tree specimens",
+          "Prevents utility line interference",
+          "Provides peace of mind before winter"
+        ],
+        "faq": [
+          {
+            "question": "When should I schedule this service?",
+            "answer": "Ideal timing is October-November after leaf drop but before freezing temperatures set in."
+          },
+          {
+            "question": "Can you help after a storm hits?",
+            "answer": "We prioritize existing clients for emergency response, so scheduling preparation gives you access to our rapid-response team."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marta K.",
+        "rating": 5,
+        "service": "Rain Garden Installation",
+        "text": "After our basement flooded twice in the Hawthorne District, Apex installed a rain garden that's handled three winters without a drop indoors. They even found vintage bricks to match our 1920s walkway during the installation.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Derrick S.",
+        "rating": 5,
+        "service": "Craftsman Landscape Restoration",
+        "text": "The team restored our Alberta Arts bungalow's original landscape using photos from 1912. The clinker brick edging and rhododendrons look period-perfect, but with modern drainage that finally stopped our foundation rot.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Lin W.",
+        "rating": 4,
+        "service": "Moss Control Treatment",
+        "text": "Our mossy roof in St. Johns is finally safe to walk on after their treatment. Lost one star because the initial application needed a follow-up in the shadiest spots, but they came back promptly at no charge.",
+        "date": "2024-11-03"
+      },
+      {
+        "name": "Raj P.",
+        "rating": 5,
+        "service": "Drought-Tolerant Landscaping",
+        "text": "The lavender and sedum planting near Division Street has neighbors stopping to ask who did the work. Our water bill dropped 60% last summer compared to the old lawn.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Eleanor T.",
+        "rating": 5,
+        "service": "Earthquake-Resistant Retaining Walls",
+        "text": "When the 4.3 tremor hit last year, our new retaining wall in the West Hills didn't budge an inch—unlike three others on our street that needed repairs. Worth every penny.",
+        "date": "2024-08-29"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Native Plant Gardens",
+        "text": "The Backyard Habitat Certification sign they helped us earn now has hummingbirds visiting daily. Our kids love spotting the swallowtail butterflies on the oceanspray shrubs.",
+        "date": "2024-07-11"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Portland Landscaping Company | Apex Landscaping",
+        "description": "Portland landscaping specialists designing rain-ready, drought-tolerant outdoor spaces for local homes since 2012. Serving Beaverton to Lake Oswego."
+      },
+      "about": {
+        "title": "About Our Portland Landscaping Team",
+        "description": "Learn how Apex Landscaping's local expertise creates landscapes that thrive in Portland's unique climate conditions and architectural styles."
+      },
+      "services": {
+        "title": "Portland Landscaping Services | Climate-Smart Solutions",
+        "description": "Specialized landscaping services addressing Portland's rain, drought, moss, and seismic challenges for homes across Washington County."
+      },
+      "contact": {
+        "title": "Contact Portland's Landscaping Experts",
+        "description": "Get in touch with Apex Landscaping for climate-appropriate landscape design and maintenance in the Portland metro area."
+      },
+      "reviews": {
+        "title": "Portland Landscaping Reviews | Apex Landscaping",
+        "description": "See what Portland homeowners say about Apex Landscaping's work on rain gardens, moss control, and historic landscape restoration."
+      },
+      "service-areas": {
+        "title": "Landscaping Services in Portland Metro Area",
+        "description": "Expert landscaping services tailored for Beaverton, Hillsboro, Lake Oswego, Tigard and surrounding Portland communities."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Beaverton",
+        "slug": "beaverton-or",
+        "state": "OR",
+        "content": "Apex Landscaping proudly serves Beaverton, OR, a thriving suburban community known for its charming ranch-style homes built in the 1970s and 1980s. Our team specializes in maintaining lush, healthy lawns and gardens despite the region's mild, wet winters with persistent rainfall. We offer tailored solutions like drainage improvements and moss control to keep your outdoor spaces looking their best year-round. Whether you need seasonal cleanups, lawn care, or custom landscaping, we’re here to enhance Beaverton’s natural beauty.",
+        "localContext": "Beaverton features a mix of suburban neighborhoods with mature landscaping and a family-friendly atmosphere.",
+        "nearbyAreas": [
+          "Portland",
+          "Tigard",
+          "Hillsboro"
+        ]
+      },
+      {
+        "city": "Hillsboro",
+        "slug": "hillsboro-or",
+        "state": "OR",
+        "content": "In Hillsboro, OR, Apex Landscaping helps homeowners in this fast-growing tech corridor maintain pristine outdoor spaces. With newer housing developments and modern landscaping needs, we provide services like irrigation system installations, drought-resistant plantings, and low-maintenance designs. Hillsboro’s mild, wet winters require expert care to prevent waterlogging and moss buildup. Trust us to keep your property vibrant and well-maintained, rain or shine.",
+        "localContext": "Hillsboro blends tech-industry growth with suburban living, featuring newer homes and manicured landscapes.",
+        "nearbyAreas": [
+          "Beaverton",
+          "Forest Grove",
+          "Cornelius"
+        ]
+      },
+      {
+        "city": "Lake Oswego",
+        "slug": "lake-oswego-or",
+        "state": "OR",
+        "content": "Apex Landscaping elevates the outdoor living experience for Lake Oswego’s upscale lakefront properties. Known for its stunning views and meticulously maintained gardens, this city demands high-end landscaping services. We specialize in custom hardscaping, waterfront plantings, and seasonal maintenance to complement Lake Oswego’s elegant homes. Our team understands the unique challenges of the area’s wet winters and designs landscapes that thrive in this climate.",
+        "localContext": "Lake Oswego is renowned for its luxurious homes, lakefront scenery, and sophisticated landscaping.",
+        "nearbyAreas": [
+          "West Linn",
+          "Tualatin",
+          "Portland"
+        ]
+      },
+      {
+        "city": "Tigard",
+        "slug": "tigard-or",
+        "state": "OR",
+        "content": "Serving Tigard, OR, Apex Landscaping transforms suburban homes with tailored lawn care and landscaping solutions. This community’s 1970s-80s-era homes often benefit from our expertise in updating older landscapes with modern, low-maintenance designs. Tigard’s mild, wet winters require proactive drainage solutions and moss management, which we expertly handle. From lawn aeration to seasonal planting, we help Tigard residents enjoy beautiful, functional outdoor spaces.",
+        "localContext": "Tigard offers a suburban feel with well-established neighborhoods and a focus on community green spaces.",
+        "nearbyAreas": [
+          "Beaverton",
+          "Tualatin",
+          "Sherwood"
+        ]
+      },
+      {
+        "city": "Portland",
+        "slug": "portland-or",
+        "state": "OR",
+        "content": "Apex Landscaping brings top-tier landscaping services to Portland, OR, catering to the city’s diverse architectural styles and eco-conscious homeowners. Whether you have a compact urban yard or a sprawling garden, we design sustainable, visually striking landscapes. Portland’s wet winters demand specialized care, and our team excels in rain garden installations, erosion control, and year-round maintenance. Let us help you create an outdoor space that reflects Portland’s unique character.",
+        "localContext": "Portland combines urban living with a deep appreciation for nature and innovative landscaping.",
+        "nearbyAreas": [
+          "Beaverton",
+          "Gresham",
+          "Lake Oswego"
+        ]
+      },
+      {
+        "city": "West Linn",
+        "slug": "west-linn-or",
+        "state": "OR",
+        "content": "In West Linn, OR, Apex Landscaping enhances the natural beauty of this riverside community with custom landscaping solutions. Known for its rolling hills and upscale homes, West Linn benefits from our expertise in sloped yard stabilization, native plantings, and water-efficient designs. The area’s wet winters require careful planning to prevent runoff and soil erosion. We work closely with homeowners to create stunning, sustainable landscapes that thrive in every season.",
+        "localContext": "West Linn features picturesque landscapes, upscale residences, and a strong connection to the Willamette River.",
+        "nearbyAreas": [
+          "Lake Oswego",
+          "Oregon City",
+          "Tualatin"
+        ]
+      },
+      {
+        "city": "Tualatin",
+        "slug": "tualatin-or",
+        "state": "OR",
+        "content": "Apex Landscaping serves Tualatin, OR, with professional landscaping services tailored to this family-friendly suburb. From manicured lawns to creative hardscaping, we help homeowners make the most of their outdoor spaces. Tualatin’s mild, wet winters call for expert moss control and drainage solutions, which we provide with precision. Whether you’re looking for routine maintenance or a complete landscape overhaul, our team delivers exceptional results.",
+        "localContext": "Tualatin offers a mix of suburban charm, well-kept parks, and accessible outdoor recreation.",
+        "nearbyAreas": [
+          "Tigard",
+          "Lake Oswego",
+          "Sherwood"
+        ]
+      },
+      {
+        "city": "Sherwood",
+        "slug": "sherwood-or",
+        "state": "OR",
+        "content": "In Sherwood, OR, Apex Landscaping helps homeowners create inviting outdoor spaces that complement the city’s small-town feel. Our services include lawn care, seasonal planting, and custom landscaping designs that enhance curb appeal. Sherwood’s wet winters require specialized attention to prevent water damage and moss overgrowth. We provide reliable, year-round maintenance to keep your property looking its best in every season.",
+        "localContext": "Sherwood blends rural charm with suburban convenience, featuring spacious lots and family-oriented communities.",
+        "nearbyAreas": [
+          "Tigard",
+          "Tualatin",
+          "Wilsonville"
+        ]
+      },
+      {
+        "city": "Wilsonville",
+        "slug": "wilsonville-or",
+        "state": "OR",
+        "content": "Apex Landscaping serves Wilsonville, OR, with expert landscaping solutions for this growing community. Known for its mix of residential and commercial spaces, Wilsonville benefits from our versatile services, including irrigation management, lawn care, and landscape design. The area’s wet winters demand proactive measures to maintain healthy plants and prevent waterlogging. We help Wilsonville residents achieve beautiful, functional landscapes tailored to their needs.",
+        "localContext": "Wilsonville offers a balance of suburban living, business hubs, and easy access to natural areas.",
+        "nearbyAreas": [
+          "Tualatin",
+          "Sherwood",
+          "Aurora"
+        ]
+      },
+      {
+        "city": "Gresham",
+        "slug": "gresham-or",
+        "state": "OR",
+        "content": "In Gresham, OR, Apex Landscaping provides reliable landscaping services for this diverse, family-friendly city. From routine lawn maintenance to full-scale landscape renovations, we cater to Gresham’s varied housing styles and outdoor needs. The region’s wet winters require specialized care to prevent moss and drainage issues. Our team ensures your yard remains healthy and vibrant, no matter the season.",
+        "localContext": "Gresham combines affordability with natural beauty, featuring parks, trails, and a strong sense of community.",
+        "nearbyAreas": [
+          "Portland",
+          "Troutdale",
+          "Fairview"
+        ]
+      },
+      {
+        "city": "Oregon City",
+        "slug": "oregon-city-or",
+        "state": "OR",
+        "content": "Apex Landscaping serves Oregon City, OR, with tailored landscaping solutions for this historic yet growing community. Whether you own a historic home or a modern property, we design landscapes that complement your style and the area’s natural beauty. Oregon City’s wet winters require expert moss control and erosion prevention, which we handle with care. Let us help you create an outdoor space that honors the region’s heritage while meeting your needs.",
+        "localContext": "Oregon City blends historic charm with suburban expansion, offering scenic views and riverfront properties.",
+        "nearbyAreas": [
+          "West Linn",
+          "Gladstone",
+          "Milwaukie"
+        ]
+      },
+      {
+        "city": "Milwaukie",
+        "slug": "milwaukie-or",
+        "state": "OR",
+        "content": "In Milwaukie, OR, Apex Landscaping helps homeowners cultivate beautiful, sustainable outdoor spaces. This tight-knit community values well-maintained yards and eco-friendly landscaping, which we deliver through services like native plantings, rain gardens, and seasonal maintenance. Milwaukie’s wet winters require diligent care to prevent water damage and moss buildup. Our team ensures your landscape remains healthy and attractive throughout the year.",
+        "localContext": "Milwaukie offers a small-town vibe with easy access to urban amenities and a focus on green spaces.",
+        "nearbyAreas": [
+          "Portland",
+          "Oregon City",
+          "Gladstone"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "rain-garden-installation": "/images/service-rain-garden-installation.webp",
+      "craftsman-landscape-restoration": "/images/service-craftsman-landscape-restoration.webp",
+      "moss-control-treatment": "/images/service-moss-control-treatment.webp",
+      "drought-tolerant-landscaping": "/images/service-drought-tolerant-landscaping.webp",
+      "earthquake-resistant-retaining-walls": "/images/service-earthquake-resistant-retaining-walls.webp",
+      "native-plant-gardens": "/images/service-native-plant-gardens.webp",
+      "ice-storm-preparation": "/images/service-ice-storm-preparation.webp"
+    },
+    "servicesResponsive": {
+      "rain-garden-installation": {
+        "src": "/images/service-rain-garden-installation.webp",
+        "srcset": "/images/service-rain-garden-installation-400w.webp 400w, /images/service-rain-garden-installation-800w.webp 800w, /images/service-rain-garden-installation-1200w.webp 1200w, /images/service-rain-garden-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "craftsman-landscape-restoration": {
+        "src": "/images/service-craftsman-landscape-restoration.webp",
+        "srcset": "/images/service-craftsman-landscape-restoration-400w.webp 400w, /images/service-craftsman-landscape-restoration-800w.webp 800w, /images/service-craftsman-landscape-restoration-1200w.webp 1200w, /images/service-craftsman-landscape-restoration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "moss-control-treatment": {
+        "src": "/images/service-moss-control-treatment.webp",
+        "srcset": "/images/service-moss-control-treatment-400w.webp 400w, /images/service-moss-control-treatment-800w.webp 800w, /images/service-moss-control-treatment-1200w.webp 1200w, /images/service-moss-control-treatment.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drought-tolerant-landscaping": {
+        "src": "/images/service-drought-tolerant-landscaping.webp",
+        "srcset": "/images/service-drought-tolerant-landscaping-400w.webp 400w, /images/service-drought-tolerant-landscaping-800w.webp 800w, /images/service-drought-tolerant-landscaping-1200w.webp 1200w, /images/service-drought-tolerant-landscaping.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "earthquake-resistant-retaining-walls": {
+        "src": "/images/service-earthquake-resistant-retaining-walls.webp",
+        "srcset": "/images/service-earthquake-resistant-retaining-walls-400w.webp 400w, /images/service-earthquake-resistant-retaining-walls-800w.webp 800w, /images/service-earthquake-resistant-retaining-walls-1200w.webp 1200w, /images/service-earthquake-resistant-retaining-walls.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "native-plant-gardens": {
+        "src": "/images/service-native-plant-gardens.webp",
+        "srcset": "/images/service-native-plant-gardens-400w.webp 400w, /images/service-native-plant-gardens-800w.webp 800w, /images/service-native-plant-gardens-1200w.webp 1200w, /images/service-native-plant-gardens.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "ice-storm-preparation": {
+        "src": "/images/service-ice-storm-preparation.webp",
+        "srcset": "/images/service-ice-storm-preparation-400w.webp 400w, /images/service-ice-storm-preparation-800w.webp 800w, /images/service-ice-storm-preparation-1200w.webp 1200w, /images/service-ice-storm-preparation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
